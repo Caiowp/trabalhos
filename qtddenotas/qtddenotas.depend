@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1556923349 source:/home/sweetmeat/Documentos/qtddenotas/main.c
+	<stdio.h>
+	<stdlib.h>
+
