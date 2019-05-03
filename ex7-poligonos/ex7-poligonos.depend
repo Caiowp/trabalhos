@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1556912304 source:/home/professor/Documentos/ex7-poligonos/main.c
+	<stdio.h>
+	<stdlib.h>
+
