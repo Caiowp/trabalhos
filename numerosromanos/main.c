@@ -16,11 +16,16 @@ int divinteira(int val, int ind){
 }
 int main()
 {
-    int num, i, div;
+    int num=1, i, div;
     char numstring[1000];
     strcpy(numstring, "");
-    printf("Digite um numero: ");
-    scanf("%d", &num);
+    while(num<=0){
+        printf("Digite um numero: ");
+        scanf("%d", &num);
+        if (num<=0){
+            printf("\nNumero invalido\n");
+        }
+    }
     if (num>=1000){
         div=divinteira(num, 1000);
         for (i=0;i<div; i++){
