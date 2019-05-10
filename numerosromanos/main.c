@@ -16,7 +16,7 @@ int divinteira(int val, int ind){
 }
 int main()
 {
-    int num=0, i, div;
+    int num=0, i;
     char numstring[1000];
     strcpy(numstring, "");
     while(num<=0){
@@ -27,8 +27,7 @@ int main()
         }
     }
     if (num>=1000){
-        div=divinteira(num, 1000);
-        for (i=0;i<div; i++){
+        for (i=0;i<divinteira(num,1000); i++){
             strcat(numstring, "M");
         }
 
@@ -47,8 +46,7 @@ int main()
         num-=400;
     }
     if(num>=100){
-        div=divinteira(num, 100);
-        for (i=0;i<div; i++){
+        for (i=0;i<divinteira(num,100); i++){
             strcat(numstring, "C");
         }
         num-=divinteira(num, 100)*100;
@@ -58,8 +56,7 @@ int main()
         num-=90;
     }
     if(num>=50){
-        div=divinteira(num, 50);
-        for (i=0;i<div; i++){
+        for (i=0;i<divinteira(num, 50); i++){
             strcat(numstring, "L");
         }
         num-=divinteira(num, 50)*50;
@@ -69,8 +66,7 @@ int main()
         num-=40;
     }
     if(num>=10){
-        div=divinteira(num, 10);
-        for (i=0;i<div; i++){
+        for (i=0;i<divinteira(num, 10); i++){
             strcat(numstring, "X");
         }
         num-=divinteira(num, 10)*10;
@@ -88,8 +84,7 @@ int main()
         num-=4;
     }
     if(num>=1){
-        div=divinteira(num, 1);
-        for (i=0;i<div; i++){
+        for (i=0;i<divinteira(num,1); i++){
             strcat(numstring, "I");
         }
     }
