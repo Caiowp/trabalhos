@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1557494137 source:/home/sweetmeat/Documentos/numerosromanos/main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
