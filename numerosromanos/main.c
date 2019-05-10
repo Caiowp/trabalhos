@@ -16,7 +16,7 @@ int divinteira(int val, int ind){
 }
 int main()
 {
-    int num=1, i, div;
+    int num=0, i, div;
     char numstring[1000];
     strcpy(numstring, "");
     while(num<=0){
