@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1558724962 source:c:\users\lcmat-bci\documents\numerospares\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1558726076 source:c:\users\alunos\documents\exercicios recursividade\numerospares\main.c
+	<stdio.h>
+	<stdlib.h>
+

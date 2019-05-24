@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558724451 source:c:\users\lcmat-bci\documents\produtoarray\main.c
+	<stdio.h>
+	<stdlib.h>
+

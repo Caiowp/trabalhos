@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1558722624 source:c:\users\lcmat-bci\documents\somatorio recursivo\main.c
+	<stdio.h>
+	<stdlib.h>
+
