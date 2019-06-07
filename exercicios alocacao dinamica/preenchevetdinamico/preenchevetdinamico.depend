@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1559932296 source:c:\users\alunos\documents\preenchevetdinamico\main.c
+	<stdio.h>
+	<stdlib.h>
+

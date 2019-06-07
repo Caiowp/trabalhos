@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1559933461 source:c:\users\alunos\documents\concatenavet\main.c
+	<stdio.h>
+	<stdlib.h>
+
