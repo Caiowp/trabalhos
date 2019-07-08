@@ -1,0 +1,15 @@
+2- )  Qual é a saída deste programa? Comente sua resposta.
+	#include <iostream.h>
+	void main( ) {
+		int i=5, *p;
+		p = &i;
+		cout << p << ‘\t’ << (*p+2) << ‘ \t’ << **&p << ‘\t’ << (3**p) << ‘ \t’ << (**&p+4);
+	} 
+
+linha 4 - p recebe o ponteiro de i, p passa a valer 5
+
+linha 5 - O primeiro cout printa o endereço de memória de i. 
+O segundo cout printa o conteúdo de i somando 2 que é igual a 7. 
+O terceiro cout retorna o conteúdo do ponteiro do endereço de memória de p que é igual ao valor de i(5). 
+O quarto cout multiplica o conteúdo do ponteiro p(que é igual ao valor de i) por 3 e exibe 15. 
+O último cout printa o conteúdo do ponteiro do endereço de de p somando 4 que resulta em 9.
